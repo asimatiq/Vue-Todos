@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Todos v-bind:todos="todos" />
+    <Todos v-bind:todos="todos" class="todo-item-main" />
   </div>
 </template>
 
@@ -37,6 +37,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.todo-item-main{
+    background: #eee;
+}
 </style>
